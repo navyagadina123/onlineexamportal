@@ -1,0 +1,106 @@
+2022-10-31 13:07:10.175  INFO 18960 --- [restartedMain] com.cg.oep.OnlineExamPortalApplication   : Starting OnlineExamPortalApplication using Java 17.0.1 on INLEN8520029627 with PID 18960 (C:\Users\GHAVILE\Desktop\Bench Practice\Spring boot\Exam_Service\target\classes started by ghavile in C:\Users\GHAVILE\Desktop\Bench Practice\Spring boot\Exam_Service)
+2022-10-31 13:07:10.176 DEBUG 18960 --- [restartedMain] com.cg.oep.OnlineExamPortalApplication   : Running with Spring Boot v2.7.5, Spring v5.3.23
+2022-10-31 13:07:10.177  INFO 18960 --- [restartedMain] com.cg.oep.OnlineExamPortalApplication   : No active profile set, falling back to 1 default profile: "default"
+2022-10-31 13:07:10.208  INFO 18960 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-10-31 13:07:10.208  INFO 18960 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-10-31 13:07:10.510  INFO 18960 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-10-31 13:07:10.540  INFO 18960 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 27 ms. Found 1 MongoDB repository interfaces.
+2022-10-31 13:07:10.672  WARN 18960 --- [restartedMain] onfigReactiveWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start reactive web server; nested exception is org.springframework.boot.web.context.MissingWebServerFactoryBeanException: No qualifying bean of type 'org.springframework.boot.web.reactive.server.ReactiveWebServerFactory' available: Unable to start AnnotationConfigReactiveWebServerApplicationContext due to missing ReactiveWebServerFactory bean
+2022-10-31 13:07:10.679  INFO 18960 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-10-31 13:07:10.691 ERROR 18960 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web application could not be started as there was no org.springframework.boot.web.reactive.server.ReactiveWebServerFactory bean defined in the context.
+
+Action:
+
+Check your application's dependencies for a supported reactive web server.
+Check the configured web application type.
+
+2022-10-31 13:12:17.694  INFO 22204 --- [restartedMain] com.cg.oep.OnlineExamPortalApplication   : Starting OnlineExamPortalApplication using Java 17.0.1 on INLEN8520029627 with PID 22204 (C:\Users\GHAVILE\Desktop\Bench Practice\Spring boot\Exam_Service\target\classes started by ghavile in C:\Users\GHAVILE\Desktop\Bench Practice\Spring boot\Exam_Service)
+2022-10-31 13:12:17.695 DEBUG 22204 --- [restartedMain] com.cg.oep.OnlineExamPortalApplication   : Running with Spring Boot v2.7.5, Spring v5.3.23
+2022-10-31 13:12:17.695  INFO 22204 --- [restartedMain] com.cg.oep.OnlineExamPortalApplication   : No active profile set, falling back to 1 default profile: "default"
+2022-10-31 13:12:17.729  INFO 22204 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-10-31 13:12:17.729  INFO 22204 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-10-31 13:12:18.067  INFO 22204 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-10-31 13:12:18.096  INFO 22204 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 26 ms. Found 1 MongoDB repository interfaces.
+2022-10-31 13:12:18.406  INFO 22204 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8087 (http)
+2022-10-31 13:12:18.412  INFO 22204 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-10-31 13:12:18.413  INFO 22204 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-10-31 13:12:18.452  INFO 22204 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-10-31 13:12:18.453  INFO 22204 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 724 ms
+2022-10-31 13:12:18.577  INFO 22204 --- [restartedMain] org.mongodb.driver.client                : MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync|spring-boot", "version": "4.6.1"}, "os": {"type": "Windows", "name": "Windows 10", "architecture": "amd64", "version": "10.0"}, "platform": "Java/Eclipse Adoptium/17.0.1+12"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=null, streamFactoryFactory=null, commandListeners=[], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.Jep395RecordCodecProvider@4dee25cc]}, clusterSettings={hosts=[localhost:27017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='30000 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, sendBufferSize=0}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, sendBufferSize=0}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, contextProvider=null}
+2022-10-31 13:12:18.590  INFO 22204 --- [cluster-ClusterId{value='635f7c5a7816c0081c4b22dc', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:17}] to localhost:27017
+2022-10-31 13:12:18.590  INFO 22204 --- [cluster-rtt-ClusterId{value='635f7c5a7816c0081c4b22dc', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:16}] to localhost:27017
+2022-10-31 13:12:18.590  INFO 22204 --- [cluster-ClusterId{value='635f7c5a7816c0081c4b22dc', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=15674500}
+2022-10-31 13:12:18.691  INFO 22204 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-10-31 13:12:18.770  WARN 22204 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'examController': Unsatisfied dependency expressed through field 'service'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.cg.oep.service.SequenceGeneratorService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2022-10-31 13:12:18.773  INFO 22204 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-10-31 13:12:18.783  INFO 22204 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-10-31 13:12:18.797 ERROR 22204 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field service in com.cg.oep.controller.ExamController required a bean of type 'com.cg.oep.service.SequenceGeneratorService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.cg.oep.service.SequenceGeneratorService' in your configuration.
+
+2022-10-31 13:14:38.541  INFO 19912 --- [restartedMain] com.cg.oep.OnlineExamPortalApplication   : Starting OnlineExamPortalApplication using Java 17.0.1 on INLEN8520029627 with PID 19912 (C:\Users\GHAVILE\Desktop\Bench Practice\Spring boot\Exam_Service\target\classes started by ghavile in C:\Users\GHAVILE\Desktop\Bench Practice\Spring boot\Exam_Service)
+2022-10-31 13:14:38.542 DEBUG 19912 --- [restartedMain] com.cg.oep.OnlineExamPortalApplication   : Running with Spring Boot v2.7.5, Spring v5.3.23
+2022-10-31 13:14:38.543  INFO 19912 --- [restartedMain] com.cg.oep.OnlineExamPortalApplication   : No active profile set, falling back to 1 default profile: "default"
+2022-10-31 13:14:38.573  INFO 19912 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-10-31 13:14:38.574  INFO 19912 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-10-31 13:14:38.922  INFO 19912 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-10-31 13:14:38.952  INFO 19912 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 28 ms. Found 1 MongoDB repository interfaces.
+2022-10-31 13:14:39.247  INFO 19912 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8087 (http)
+2022-10-31 13:14:39.253  INFO 19912 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-10-31 13:14:39.253  INFO 19912 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-10-31 13:14:39.298  INFO 19912 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-10-31 13:14:39.298  INFO 19912 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 724 ms
+2022-10-31 13:14:39.423  INFO 19912 --- [restartedMain] org.mongodb.driver.client                : MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync|spring-boot", "version": "4.6.1"}, "os": {"type": "Windows", "name": "Windows 10", "architecture": "amd64", "version": "10.0"}, "platform": "Java/Eclipse Adoptium/17.0.1+12"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=null, streamFactoryFactory=null, commandListeners=[], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.Jep395RecordCodecProvider@3c17a4c8]}, clusterSettings={hosts=[localhost:27017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='30000 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, sendBufferSize=0}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, sendBufferSize=0}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, contextProvider=null}
+2022-10-31 13:14:39.435  INFO 19912 --- [cluster-rtt-ClusterId{value='635f7ce7245e160adaf51609', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:18}] to localhost:27017
+2022-10-31 13:14:39.435  INFO 19912 --- [cluster-ClusterId{value='635f7ce7245e160adaf51609', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:19}] to localhost:27017
+2022-10-31 13:14:39.435  INFO 19912 --- [cluster-ClusterId{value='635f7ce7245e160adaf51609', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=15579000}
+2022-10-31 13:14:39.527  INFO 19912 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-10-31 13:14:39.605  WARN 19912 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'examController': Unsatisfied dependency expressed through field 'service'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.cg.oep.service.SequenceGeneratorService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2022-10-31 13:14:39.610  INFO 19912 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-10-31 13:14:39.618  INFO 19912 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-10-31 13:14:39.632 ERROR 19912 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field service in com.cg.oep.controller.ExamController required a bean of type 'com.cg.oep.service.SequenceGeneratorService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.cg.oep.service.SequenceGeneratorService' in your configuration.
+
